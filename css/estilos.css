@@ -1,0 +1,58 @@
+html{
+    width: 100%;
+}
+
+body{
+    background: url('/imagenes/Monkey-D.-Luffy\ Gear\ 2.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 30px auto;
+    color: crimson;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 black;
+    box-sizing: border-box;
+    box-shadow: inset 5px 5px 0 -5px blue;
+}
+
+.contenedor{
+    width: 90%;
+    border: 3px solid red; 
+    border-radius: 10px;
+    margin:60px;
+    height: 400px;
+    overflow: auto;
+}
+
+div.centrar{
+    text-align: center;
+   
+}
+
+.boton {
+    background-color: red;
+    color: black;
+    text-align: center;
+    border: 3px solid rebeccapurple;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: dodgerblue;
+    color: red;
+}
+
+a:visited{
+    background-color: darkblue;
+    color: white;
+}
